@@ -1,0 +1,48 @@
+{
+  "name": "shopify-sap-export",
+  "version": "1.0.0",
+  "description": "Export Shopify orders to SAP",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "ts-node-dev src/index.ts"
+  },
+  "author": "Codext GmbH <ecommerce@codext.de>",
+  "license": "MIT",
+  "dependencies": {
+    "@jimp/plugin-color": "^0.16.1",
+    "@sentry/node": "^7.86.0",
+    "@shopify/shopify-api": "8.1.1",
+    "@types/express": "^4.17.21",
+    "@types/ssh2-sftp-client": "^9.0.3",
+    "axios": "^1.6.2",
+    "basic-auth": "^2.0.1",
+    "body-parser": "^1.20.2",
+    "canvas": "^2.11.2",
+    "commander": "^6.0.0",
+    "cors": "^2.8.5",
+    "del": "^6.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "gifencoder": "^2.0.1",
+    "jimp": "^0.16.1",
+    "joi": "^17.4.2",
+    "liquidjs": "^10.9.4",
+    "mocha": "^9.1.0",
+    "moment": "^2.30.1",
+    "object-hash": "^3.0.0",
+    "pdfkit": "^0.11.0",
+    "reflect-metadata": "^0.1.14",
+    "rxjs": "^7.8.1",
+    "sqlite3": "^5.1.6",
+    "ssh2-sftp-client": "^9.1.0",
+    "typeorm": "^0.3.17",
+    "typescript": "^5.3.3",
+    "unidecode-plus": "^1.0.2",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0"
+  }
+}
